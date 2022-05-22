@@ -1,0 +1,40 @@
+# 백준 2588번
+a = int(input())
+b = input()
+
+b1 = int(b[2])
+b2 = int(b[1])
+b3 = int(b[0])
+
+c = a * b1
+d = a * b2
+e = a * b3
+f = a * int(b)
+
+print(c)
+print(d)
+print(e)
+print(f)
+
+# 백준 2884번
+H = int(input(""))
+M = int(input(""))
+
+if M - 45 < 0:
+    H -= 1
+    if H - 1 < 0:
+        H = 23
+    M = 60 + (M - 45)
+else:
+    M -= 45
+    
+print(H, M)
+
+# 피라미드 모양으로 별 출력
+a = 5
+b = 1
+
+for x in range(6):
+    print(" " * a, "*" * b, sep="")
+    a -= 1
+    b += 2
