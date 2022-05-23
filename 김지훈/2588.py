@@ -1,3 +1,4 @@
+"""
 a =  int(input())
 b =  int(input())
 
@@ -10,7 +11,7 @@ print(b3*a)
 print(b2*a)
 print(b1*a)
 print(result)
-
+"""
 a = int(input())
 b = int(input())
 print(a * (b % 10))
