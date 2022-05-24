@@ -7,7 +7,5 @@ if M < 45 :
     else :
         H-=1
         M+=60
-else :
-    M-=45
-
-print(H,M)
+        
+print(H,M-45)
